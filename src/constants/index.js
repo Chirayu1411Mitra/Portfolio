@@ -19,9 +19,9 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
+    Cafe,
+    Form,
+    EventElevate,
     threejs,
   } from "../assets";
   
@@ -42,19 +42,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "HTML",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "JavaScript",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Java",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "C++",
       icon: creator,
     },
   ];
@@ -198,67 +198,63 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      name: "Aroma Cafe",
       tags: [
         {
-          name: "react",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "JavaScript",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: Cafe,
+      source_code_link: "https://github.com/Chirayu1411Mitra/Aroma-cafe.git",
     },
     {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      name: "Registration from",
+     
       tags: [
         {
-          name: "react",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "JavaScript",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: Form,
+      source_code_link: "https://github.com/Chirayu1411Mitra/Registration-form.git",
     },
     {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      name: "Event Elevate",
+      
       tags: [
         {
-          name: "nextjs",
+          name: "JavaScript",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "EmailJs",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "TypeScript",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: EventElevate,
+      source_code_link: "https://github.com/Chirayu1411Mitra/FEE-site.git",
     },
   ];
   
