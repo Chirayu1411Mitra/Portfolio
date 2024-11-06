@@ -28,7 +28,7 @@ import tesla from "./company/tesla.png";
 
 import Cafe from "./Cafe.png";
 import EventElevate from "./EventElevate.png";
-import Form from "./from.png";
+import Form from "./Form.png";
 
 export {
   logo,
