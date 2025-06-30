@@ -28,36 +28,38 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-const nodemailer = require("nodemailer");
 
-async function createTransport() {
-  return nodemailer.createTransport({
-    service: "gmail",
-    auth: {
-      user: "mitrachirayu@gmail.com",
-      pass: "gupf nvyh jexv kwke",
-    },
-  });
-}
+    emailjs
+      .send(
+        'service_l5d3fo6',
+        'template_x0a8tmk',
+        {
+          from_name: form.name,
+          to_name: "Phoenix",
+          from_email: form.email,
+          to_email: "mitrachirayu@gmail.com",
+          message: form.message,
+        },
+        '8oya4E6_GIrBdKOzF'
+      )
+      .then(
+        () => {
+          setLoading(false);
+          alert("Thank you. I will get back to you as soon as possible.");
 
-async function sendmail(to, subject, html) {
-  try {
-    const transporter = await createTransport();
-    let mailOptions = {
-      from: "mitrachirayu@gmail.com",
-      to: to,
-      subject: subject,
-      html: html,
-    };
-    const info = await transporter.sendMail(mailOptions);
-    console.log("Email sent: " + info.response);
-  } catch (error) {
-    console.error("error at sending mail", error);
-  }
-}
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          setLoading(false);
+          console.error(error);
 
-module.exports = sendmail;
-
+          alert("Ahh, something went wrong. Please try again.");
+        }
+      );
   };
 
   return (
