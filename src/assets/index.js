@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -20,6 +19,14 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import aws from "./tech/aws.jpeg";
+import Firebase from "./tech/Firebase.png";
+import Mysql from "./tech/Mysql.png";
+import psql from "./tech/psql.png";
+import java from "./tech/java.png";
+import python from "./tech/python.jpeg";
+import C from "./tech/C++.png";
+import express from "./tech/express.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -31,11 +38,14 @@ import EventElevate from "./EventElevate.png";
 import Form from "./Form.png";
 
 export {
-  logo,
   backend,
   creator,
   mobile,
   web,
+  C,
+  express,
+  java,
+  python,
   github,
   menu,
   close,
@@ -52,6 +62,10 @@ export {
   tailwind,
   typescript,
   threejs,
+  aws,
+  Firebase,
+  Mysql,
+  psql,
   meta,
   shopify,
   starbucks,

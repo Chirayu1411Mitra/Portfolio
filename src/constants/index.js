@@ -23,6 +23,14 @@ import {
     Form,
     EventElevate,
     threejs,
+    aws,
+    Firebase,
+    Mysql,
+    java,
+    express,
+    C,
+    python,
+    psql
   } from "../assets";
   
   export const navLinks = [
@@ -36,23 +44,68 @@ import {
     },
   ];
   
-  const services = [
+  const technologies = [
     {
-      title: "Java",
-      icon: web,
+      name: "Java",
+      icon: java,
     },
     {
-      title: "Typescript",
-      icon: mobile,
+      name: "C/C++",
+      icon: C,
     },
     {
-      title: "C/C++",
-      icon: backend,
+      name: "Python",
+      icon: python,
     },
     {
-      title: "JavaScript",
-      icon: creator,
+      name: "HTML 5",
+      icon: html,
     },
+    {
+      name: "CSS 3",
+      icon: css,
+    },
+    {
+      name: "JavaScript",
+      icon: javascript,
+    },
+    {
+      name: "React JS",
+      icon: reactjs,
+    },
+    {
+      name: "Express Js",
+      icon: express,
+    },
+    {
+      name: "Node JS",
+      icon: nodejs,
+    },
+    {
+      name: "MongoDB",
+      icon: mongodb,
+    },
+    {
+      name: "Postgre Sql",
+      icon: psql,
+    },
+    {
+      name: "My SQL",
+      icon: Mysql,
+    },
+    {
+      name: "git",
+      icon: git,
+    },
+    {
+      name: "AWS",
+      icon: aws,
+    },
+    {
+      name: "Firebase",
+      icon: Firebase,
+    },
+    
   ];
   
   
@@ -61,6 +114,7 @@ import {
   const projects = [
     {
       name: "Aroma Cafe",
+      description: "A responsive website for a cafe featuring menu display, contact information, and modern design.",
       tags: [
         {
           name: "HTML",
@@ -79,8 +133,8 @@ import {
       source_code_link: "https://github.com/Chirayu1411Mitra/Aroma-cafe.git",
     },
     {
-      name: "Registration from",
-     
+      name: "Registration form",
+      description: "A user-friendly registration form with validation and responsive design for easy data collection.",
       tags: [
         {
           name: "HTML",
@@ -100,7 +154,7 @@ import {
     },
     {
       name: "Event Elevate",
-      
+      description: "An event management platform with email integration for seamless event planning and communication.",
       tags: [
         {
           name: "JavaScript",
@@ -120,4 +174,4 @@ import {
     },
   ];
   
-  export { services, projects };
+  export { technologies, projects };
