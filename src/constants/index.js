@@ -22,6 +22,7 @@ import {
     Cafe,
     Form,
     EventElevate,
+    s3drive,
     threejs,
     aws,
     Firebase,
@@ -133,24 +134,20 @@ import {
       source_code_link: "https://github.com/Chirayu1411Mitra/Aroma-cafe.git",
     },
     {
-      name: "Registration form",
-      description: "A user-friendly registration form with validation and responsive design for easy data collection.",
+      name: "S3 Personal Drive",
+      description: "A secure personal cloud drive application utilizing AWS S3 for scalable file storage and Firebase for user authentication",
       tags: [
         {
-          name: "HTML",
+          name: "AWS S3",
           color: "blue-text-gradient",
         },
         {
-          name: "CSS",
+          name: "Firebase",
           color: "green-text-gradient",
         },
-        {
-          name: "JavaScript",
-          color: "pink-text-gradient",
-        },
       ],
-      image: Form,
-      source_code_link: "https://github.com/Chirayu1411Mitra/Registration-form.git",
+      image: s3drive,
+      source_code_link: "https://github.com/Chirayu1411Mitra/S3-Personal-Drive.git",
     },
     {
       name: "Event Elevate",

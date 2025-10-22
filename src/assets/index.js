@@ -36,6 +36,7 @@ import tesla from "./company/tesla.png";
 import Cafe from "./Cafe.png";
 import EventElevate from "./EventElevate.png";
 import Form from "./Form.png";
+import s3drive from "./s3drive.png";
 
 export {
   backend,
@@ -73,4 +74,5 @@ export {
   Cafe,
   EventElevate,
   Form,
+  s3drive,
 };
