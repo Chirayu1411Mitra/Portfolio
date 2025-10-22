@@ -32,13 +32,12 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[17px] max-w-7xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm a Computer Science student with a strong foundation in Data Structures Algorithms and Object-Oriented
+Programming. Hands-on experience in full-stack development (React, Node.js) and building cloud-native applications using AWS
+and Firebase.Passionate about building scalable, high-performance cloud software and eager to apply my skills to complex
+challenges in distributed systems and network security.
       </motion.p>
     </>
   );
