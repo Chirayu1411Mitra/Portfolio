@@ -114,6 +114,27 @@
   -webkit-text-fill-color: transparent;
 }
 
+/* Card hover shadow / glow used by project cards */
+.shadow-card {
+  box-shadow: 0 12px 30px rgba(129, 94, 255, 0.14), 0 6px 12px rgba(129, 94, 255, 0.06);
+}
+
+/* Image overlay hover used for the github icon */
+.card-img_hover {
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  opacity: 0;
+  transform: translateY(6px);
+  display: flex;
+  align-items: center;
+}
+.group:hover .card-img_hover {
+  opacity: 1;
+  transform: translateY(0);
+}
+.card-img_hover .black-gradient {
+  opacity: 0.96;
+}
+
 /* canvas- styles */
 .canvas-loader {
   font-size: 10px;

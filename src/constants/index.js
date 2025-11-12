@@ -118,24 +118,25 @@ import {
   
   const projects = [
     {
-      name: "Aroma Cafe",
-      description: "A responsive website for a cafe featuring menu display, contact information, and modern design.",
+      name: "DevBlog",
+      description: "A responsive website for posting and reading Blogs",
       tags: [
         {
-          name: "HTML",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "CSS",
+          name: "PSQL",
           color: "green-text-gradient",
         },
         {
-          name: "JavaScript",
+          name: "Node",
           color: "pink-text-gradient",
         },
       ],
       image: Cafe,
-      source_code_link: "https://github.com/Chirayu1411Mitra/Aroma-cafe.git",
+      source_code_link: "https://github.com/Chirayu1411Mitra/DevBlog.git",
+      demo_link: "https://www.devblog.live/", // Add your actual demo link here
     },
     {
       name: "S3 Personal Drive",
@@ -152,26 +153,28 @@ import {
       ],
       image: s3drive,
       source_code_link: "https://github.com/Chirayu1411Mitra/S3-Personal-Drive.git",
+      demo_link: "https://s3-personal-drive-96n9.vercel.app/", // Add your actual demo link here
     },
     {
-      name: "Event Elevate",
-      description: "An event management platform with email integration for seamless event planning and communication.",
+      name: "Pole Position",
+      description: "Developed an AI to optimize F1 car ERS deployment for the fastest lap times on any given circuit.",
       tags: [
         {
-          name: "JavaScript",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "EmailJs",
+          name: "Scikit-learn",
           color: "green-text-gradient",
         },
         {
-          name: "TypeScript",
+          name: "Flask",
           color: "pink-text-gradient",
         },
       ],
       image: EventElevate,
       source_code_link: "https://github.com/Chirayu1411Mitra/FEE-site.git",
+      demo_link: "https://event-elevate-demo.vercel.app/", // Add your actual demo link here
     },
   ];
   
