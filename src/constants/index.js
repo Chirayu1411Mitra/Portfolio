@@ -173,8 +173,8 @@ import {
         },
       ],
       image: EventElevate,
-      source_code_link: "https://github.com/Chirayu1411Mitra/FEE-site.git",
-      demo_link: "https://event-elevate-demo.vercel.app/", // Add your actual demo link here
+      source_code_link: "https://github.com/Chirayu1411Mitra/F1-ERS-AI.git",
+      demo_link: "https://chirayumitra-pole-position.hf.space/", // Add your actual demo link here
     },
   ];
   
